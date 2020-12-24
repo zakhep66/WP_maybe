@@ -17,7 +17,12 @@
     </nav>
     <header class="container">
 
+    <h1><?php the_title(); ?></h1>
+
     </header>
+    <img src="<?php the_field('img', 2) ?>" alt="ленивец">
+    <?php the_field('market', 2); ?>
+
     <?php wp_footer(); ?>
 </body>
 

@@ -4,7 +4,6 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="icon" href="img/favicon.png">
-        <?php wp_head() ?>
 		<title>Макетная мастерская</title>
 	</head>
 	<body class="body">
@@ -976,10 +975,16 @@
 					</div>
 			</div>
 			<!-- /.overlay-message -->
-
-            <?php wp_footer() ?>
 													 <!-- Подключение стилей и скриптов -->
 									<!-- Слайдер -->
+			<link rel="stylesheet" href="slick/slick.css">
+			<link rel="stylesheet" href="slick/slick-theme.css">
+			<!-- Анимация -->
+			<link href="css/animate.css" rel="stylesheet">
+			<!-- Bootstrap core CSS -->
+			<link href="css/bootstrap-grid.min.css" rel="stylesheet">
+			<!-- Custom styles for this template -->
+			<link href="css/style.css" rel="stylesheet">
 			<!-- Google Analytics -->
 			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-84746048-3"></script>
 			<script>
@@ -992,6 +997,7 @@
 			<!-- Яндекс метрика -->
 			<script> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter48955211 = new Ya.Metrika({ id:48955211, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/48955211" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
 				<!-- Скрипты -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 			<script src="slick/slick.min.js"></script>
 <!-- 			<script>
 				$(document).ready(function(){

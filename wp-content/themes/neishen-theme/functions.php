@@ -21,4 +21,5 @@ function my_scripts_method(){
 wp_enqueue_script('slick',    get_template_directory_uri() . '/slick/slick.min.js', 'jquery',    null,           true);
 //                название     это имточник(папка с темой)      расположение     зависит от     указывать      подключить в футере?
 //                скрипта                                                                   или нет версию
-wp_enqueue_script( 'wow', get_template_directory_uri() . '/js/wow.min.js', null, null, true ); // здесь нет зависимости
+wp_enqueue_script( 'maskedinput', get_template_directory_uri() . '/js/jquery.maskedinput.min.js', 'jquery', null, true ); // зависимость от jquery
+wp_enqueue_script( 'wow', get_template_directory_uri() . '/js/wow.min.js', null, null, true ); // здесь нет зависимости от jquery

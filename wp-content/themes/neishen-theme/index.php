@@ -977,7 +977,15 @@
 			</div>
 			<!-- /.overlay-message -->
 
-            <?php wp_footer() ?>
+			<?php wp_footer() ?>
+			
+
+
+
+
+
+
+			
 													 <!-- Подключение стилей и скриптов -->
 									<!-- Слайдер -->
 			<!-- Google Analytics -->
@@ -1132,7 +1140,6 @@
 					});
 				});
 			</script>
-			<script src="js/jquery.maskedinput.min.js"></script>
 			<script>
 				$(document).ready(function() {
 					$(".input-phone").mask("+7 (999) 999-9999", {autoclear: false});
@@ -1160,8 +1167,6 @@
 
 				});
 			</script>
-			<script src="js/wow.min.js"></script>
-			<script>
 				new WOW().init();
 			</script>
 	</body>

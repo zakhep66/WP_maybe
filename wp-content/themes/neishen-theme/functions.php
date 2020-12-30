@@ -8,6 +8,7 @@ wp_enqueue_style( 'slick-theme', get_template_directory_uri() . '/slick/slick-th
 
 
 
+
 add_action('wp_enqueue_scripts', 'my_scripts_method'); // когда ВП начинает подставлять скрипты, мы ципляемся за wp_enqueue_scripts и подставляем my_scripts_method
 function my_scripts_method(){
     //отменаем зареганную jquery
@@ -17,6 +18,7 @@ function my_scripts_method(){
     wp_enqueue_script( 'jquery' );
 }
 
-wp_enqueue_script('slick',    get_template_directory_uri() . '/slock/slick.min.js', 'jquery',    null,           true);
+wp_enqueue_script('slick',    get_template_directory_uri() . '/slick/slick.min.js', 'jquery',    null,           true);
 //                название     это имточник(папка с темой)      расположение     зависит от     указывать      подключить в футере?
 //                скрипта                                                                   или нет версию
+wp_enqueue_script( 'wow', get_template_directory_uri() . '/js/wow.min.js', null, null, true ); // здесь нет зависимости
